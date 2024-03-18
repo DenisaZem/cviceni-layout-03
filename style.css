@@ -65,3 +65,40 @@ aside > :last-child,
 	- 640px
 	- 1000px
 */
+
+.kontejner{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 640px) {
+
+  .obsah{
+    display: flex;
+  }
+
+  .clanek{
+    width: 60%;
+  }
+
+  .reklamy {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+  .menu {
+    width: 25%
+  }
+
+  .obsah{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+  }
+
+  .reklamy {
+    width: 50%;
+  }
+}
