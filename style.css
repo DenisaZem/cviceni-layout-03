@@ -98,6 +98,10 @@ aside > :last-child,
     width: 75%;
   }
 
+  .clanek{
+    width: 100%;
+  }
+
   .reklamy {
     width: 50%;
   }
